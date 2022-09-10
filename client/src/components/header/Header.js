@@ -45,13 +45,13 @@ const Header = ({type}) => {
     <div className='header'>
       <div className={type === 'list' ? "headerContainer listMode" : "headerContainer"}>
         <div className='headerList'>
-          <div className='headerListItem active'>
-            <FontAwesomeIcon icon={faPlane} />
-            <span>Flights</span>
-          </div>
-          <div className='headerListItem'>
+        <div className='headerListItem active'>
             <FontAwesomeIcon icon={faBed} />
             <span>Stays</span>
+          </div>
+          <div className='headerListItem'>
+            <FontAwesomeIcon icon={faPlane} />
+            <span>Flights</span>
           </div>
           <div className='headerListItem'>
             <FontAwesomeIcon icon={faCar} />
